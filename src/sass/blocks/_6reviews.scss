@@ -1,0 +1,17 @@
+.reviews {
+    padding: 60px 0;
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    &__icons {
+        margin-left: 20px;
+    }
+    &__title {
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}

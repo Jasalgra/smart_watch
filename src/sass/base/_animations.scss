@@ -1,0 +1,21 @@
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+
+}
+@keyframes shoemove {
+    from {
+        transform: scale(1);
+        transform: skew(-15deg);
+        height: 90px;
+        // transform: ;
+    }
+    to {
+        transform: scale(1.0);
+    }
+
+}

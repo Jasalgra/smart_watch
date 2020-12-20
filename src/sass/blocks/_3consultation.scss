@@ -1,0 +1,59 @@
+  .consultation {
+      min-height: 680px;
+      padding: 100px 0 92px 0;
+      background: url('../../img/bg_form.jpg') center (center / cover) no-repeat;
+
+      &__description {
+          color: #fff;
+          text-align: left;
+          font-size: 20px;
+      }
+
+      .error {
+          border: 1px solid red;
+          
+        }
+        label.error {
+            margin-bottom: 15px;
+         color: #fff;
+         border: none;
+         text-align: center;
+     }
+  }
+
+  @media (max-width: 560px) {
+    .consultation {
+        min-height: 620px;
+        padding: 70px 0 62px 0;
+        
+        &__title {
+            font-size: 30px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        &__description {
+            color: #fff;
+            text-align: left;
+            font-size: 16px;
+        }
+    }
+  }
+
+
+  @media (max-width: 320px) {
+    .consultation {
+        min-height: 620px;
+        padding: 50px 0 52px 0;
+        
+        &__title {
+            font-size: 28px;
+            line-height: 1.2;
+            margin-bottom: 18px;
+        }
+        &__description {
+            color: #fff;
+            text-align: left;
+            font-size: 14px;
+        }
+    }
+  }

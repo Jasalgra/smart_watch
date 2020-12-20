@@ -1,0 +1,108 @@
+.carousel {
+    padding: 82px 0;
+
+    &__inner {
+        position: relative;
+        max-width: 750px;
+        margin: 0 auto;
+        align-items: center;
+        img {
+            width: 100%;
+        }
+    }
+
+    .slick-prev, .slick-next {
+        // z-index: 1;
+        position: absolute;
+        top: 230px;
+        top: 50%;
+        left: -66px;
+        // left: 0;
+        
+        border: none;
+        background-color: none;
+        img {
+            width: 31px;
+            height: 50px;
+            z-index: 0;
+        }
+    }
+    .slick-next {
+        right: -66px;
+        left: auto;
+    }
+
+    .slick-dots {
+        li {
+            border: 1px solid rgb(196, 33, 33);
+            border-radius: 100%;
+        }
+
+        li.slick-active {
+            background-color: rgb(73, 4, 4);
+        }
+    }
+
+
+}
+
+
+@media (max-width: 920px) {
+    .carousel {
+        padding: 32px 0;
+        display: none;
+
+    
+        &__inner {
+            // position: relative;
+            // max-width: 750px;
+            // margin: 0 auto;
+            // align-items: center;
+            img {
+                // width: 100%;
+                // margin: 25px;
+            }
+        }
+    }
+}
+@media (max-width: 741px) {
+    .carousel {
+        padding: 32px 0;
+
+        
+        .container {
+            max-width: 99%;
+        }
+    
+        &__inner {
+            // display: flex;
+            // justify-content: center;
+            // position: relative;
+            max-width: 98%;
+            // margin: 0 auto;
+            // align-items: center;
+            img {
+                // display: block;
+                // width: 100%;
+                // margin: 25px;
+            }
+        }
+    }
+}
+// @media (max-width: 576px) {
+//     .carousel {
+//         padding: 32px 0;
+//         max-width: calc(100% - 40px);
+    
+//         &__inner {
+//             // position: relative;
+//             // margin: 0 auto;
+//             // align-items: center;
+//             // img {
+//             //     display: block;
+//             //     width: 80%;
+//                 // margin: 0 auto;
+//             // }
+//         }
+//     }
+// }
